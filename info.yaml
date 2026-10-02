@@ -7,13 +7,10 @@ project:
   language:     "Verilog"
   clock_hz:     25175000
 
-  # How many tiles your design occupies? A single tile is about 167x108 uM.
   tiles: "1x1"
 
-  # Your top module name must start with "tt_um_".
   top_module:  "tt_um_vga_example"
-  
-  # List your project's source files here.
+
   source_files:
     - "project.v"
     - "hvsync_generator.v"
